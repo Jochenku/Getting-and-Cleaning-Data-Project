@@ -11,7 +11,7 @@ The data is collected from the accelerometers of the smartphone Samsung Galaxy S
 
 # Identifier variables
 
-There are two identifier variables in the data set *'tidy.txt':
+There are two identifier variables in the data set *'tidy.txt'*:
 
 * subject - The ID of each subject: Integer values: 1:30
 * activity - The type of activity performed when the corresponding measurements were taken: Factor values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
@@ -19,7 +19,7 @@ There are two identifier variables in the data set *'tidy.txt':
 
 # Measurement variables 
 
-## Basis of measurement variables
+## Derivation of measurement variables
 
 The measurement variables selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -69,7 +69,7 @@ Note: features are normalized and bounded within [-1,1].
 
 ## Measurement variables
 
-There are 72 measurement variables in the data set *'tidy.txt':
+Following the system described above, there are 72 measurement variables in the data set *'tidy.txt'*:
 
 tBodyAccmeanX
 tBodyAccmeanY
