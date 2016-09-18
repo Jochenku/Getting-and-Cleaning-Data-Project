@@ -1,8 +1,6 @@
-Code Book
-=================
+# Code Book
 
-Overview
-=================
+# Overview
 
 This code book indicates all variables of 'tidy.txt'.
 Variables of 'tidy.txt' are derived from the "Human Activity Recognition Using Smartphones Data Set" which was originally made avaiable here: 
@@ -11,8 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 The data is collected from the accelerometers of the smartphone Samsung Galaxy S II. It is based on experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. The data was captured while each person performed six activities wearing a smartphone on the waist. 
 
 
-Identifier variables
-=================
+# Identifier variables
 
 There are two identifier variables:
 
@@ -20,8 +17,7 @@ subject - The ID of each subject: Integer values: 1:30
 activity - The type of activity performed when the corresponding measurements were taken: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 
-Measurement Features 
-=================
+# Measurement variables 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
